@@ -62,6 +62,7 @@ public class HotelLoginDataTable {
 			driver.findElement(By.id("password")).sendKeys(data.get("Password"));
 			driver.findElement(By.id("login")).click();
 			System.out.println("Hello");
+			System.out.println("Welcome");
 		}
 }
 
